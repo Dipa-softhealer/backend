@@ -4,8 +4,9 @@ X = [[12,7,3],[4 ,5,6],[7,8,9]]
 
 # 3X4 matrix
 Y = [[5,8,1,2],[6,7,3,0],[4,5,9,1]]
-res = []
 # resultant = 3X4
+res = []
+
 for i in range(len(X)):
     temp = []
     for j in range(len(Y[0])):
